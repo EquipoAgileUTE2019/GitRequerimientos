@@ -42,7 +42,7 @@ public class AsignadorDeVehiculoDeEntregaTest {
 	public void entreCincoDiezPaquetesMoto() {
 		List<String> paquetes = new LinkedList<>();
 		
-		for (int i = 0; i <10; i++) {
+		for (int i = 0; i <7; i++) {
 			paquetes.add("libro");
 		}
 		
