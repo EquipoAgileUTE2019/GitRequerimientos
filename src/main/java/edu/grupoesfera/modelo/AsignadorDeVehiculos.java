@@ -10,6 +10,7 @@ public class AsignadorDeVehiculos {
 	public Envio asignar(List<String> paquetes) {
 		Envio envio = new Envio();
 		
+		System.out.println();
 		if(paquetes.size() <5) {
 			envio.setVehiculo("BICICLETA");
 		}else if(paquetes.size() <10) {
@@ -17,6 +18,9 @@ public class AsignadorDeVehiculos {
 		}else if(paquetes.size() <30) {
 			envio.setVehiculo("AUTO");
 		}
+		
+		if(envio.getVehiculo()== null)
+			throw new RuntimeException();
 		
 		return envio;
 	}
