@@ -3,8 +3,9 @@ script: mvn clean verify
 jdk:
   - oraclejdk11
 notifications:  
-  email:  
-    recipients:  
-    - eduardo.sifontes@gmail.com 
-    - andrea.antelo@gmail.com
+email:
+    recipients:
+      - andrea.antelo@gmail.com
+      - eduardo.sifontes@gmail.com
+    on_success: always
     
