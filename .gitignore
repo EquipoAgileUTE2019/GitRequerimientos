@@ -26,3 +26,8 @@ hs_err_pid*
 .idea
 /.idea/
 /target/
+.classpath
+.project
+.settings/org.eclipse.jdt.core.prefs
+.settings/org.eclipse.core.resources.prefs
+GitRequerimientos/
