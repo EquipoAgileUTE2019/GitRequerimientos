@@ -2,8 +2,8 @@ language: java
 script: mvn clean verify
 jdk:
   - oraclejdk11
-notifications:  
-email:
+notifications:
+  email:
     recipients:
       - andrea.antelo@gmail.com
       - eduardo.sifontes@gmail.com
